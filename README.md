@@ -1,0 +1,2 @@
+# kucing
+Project autoscript
