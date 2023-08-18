@@ -48,7 +48,7 @@ rm -f /etc/systemd/system/ws-dropbear.service
 cat > /etc/systemd/system/ws-dropbear.service <<END
 [Unit]
 Description=Python WS-Dropbear
-Documentation=CobekSawit
+Documentation=https://panel.starttunnelling.my.id
 After=network.target nss-lookup.target
 [Service]
 Type=simple
@@ -100,7 +100,7 @@ rm -f /etc/systemd/system/cdn-ovpn.service
 cat > /etc/systemd/system/cdn-ovpn.service <<END
 [Unit]
 Description=Python WS-Ovpn 
-Documentation=CobekSawit
+Documentation=https://starttunnelling.my.id
 After=network.target nss-lookup.target
 [Service]
 Type=simple
