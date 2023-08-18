@@ -114,7 +114,7 @@ fi
 tls="$(cat ~/log-install.txt | grep -w "Sodosok WS/GRPC" | cut -d: -f2|sed 's/ //g')"
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 echo -e "┌─────────────────────────────────────────────────┐" | lolcat
-echo -e "│       CREATE SHADOWSOCK WS/GRPC ACCOUN          │" | lolcat
+echo -e "│       CREATE SHADOWSOCK WS/GRPC ACCOUNT         │" | lolcat
 echo -e "└─────────────────────────────────────────────────┘" | lolcat
 
                 read -rp "User: " -e user
