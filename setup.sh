@@ -634,7 +634,7 @@ echo ""
 echo  ""
 echo  "------------------------------------------------------------"
 echo  ""
-echo  "================-[ Script Xray Cobek Sawit V2 ]-================"
+echo  "================-[ Script Xray Effata Store V1 ]-================"
 echo -e ""
 echo  ""
 echo  "" | tee -a log-install.txt
